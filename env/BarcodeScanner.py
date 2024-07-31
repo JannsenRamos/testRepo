@@ -24,10 +24,11 @@ def BarcodeReader(image):
     cv2.imshow("Image", img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    return "\n".join(barcode)
 
-if __name__ == "__main__":
-    image = "C:\\Users\\Lenovo\\Documents\\GitHub\\testRepo\\testBarcodes\\b1.png"
-    BarcodeReader(image)
+# if __name__ == "__main__":
+#     image = "C:\\Users\\Lenovo\\Documents\\GitHub\\testRepo\\testBarcodes\\b1.png"
+#     BarcodeReader(image)
 
 
     
